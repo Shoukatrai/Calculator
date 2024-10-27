@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: 1px solid red;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+@media only screen and (max-width: 600px){
+    .container{
+        width: 100%;
+        margin-top: 0;
+    }
+table td{
+    border-radius: 50%;
+}
+.container input{
+    border-radius: 100px;
+}
+}
+
+.container input{
+    width: 100%;
+    padding: 30px;
+    outline: none;
+    border: none;
+    background-color:  #333333;
+    color: F61B35;
+    text-align: right;
+    border-radius: 10px;
+    color: white;
+    cursor: text;
+}
+.body table{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    border-spacing: 10px;
+}
+table td{
+    color: white;
+    background-color: #333333;
+    padding: 10px; 
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+table td:hover{
+    background-color: #333333c7;
+}
+table td.grey{
+    background-color: white;
+    color: black;
+}
+table td.grey:hover{
+    background-color: rgba(255, 255, 255, 0.73);
+}
+table td.yellow{
+    background-color:#F89B10;
+    color: white;
+}
+table td.yellow:hover{
+    background-color: #f89b10c5;
+}
+table td.black{
+    background-color: #333333;
+}
