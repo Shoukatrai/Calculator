@@ -9,45 +9,45 @@
 <body>
     <div class="container">
         <div class="input">
-            <input type="text" disabled name="input" id="input">
+            <input type="text" disabled name="input" id="input" placeholder="0">
         </div>
         
         
         <div class="body">
             <table>
                 <tr>
-                    <td onclick="allClear()" class="grey">AC</td>
-                    <td onclick="remove()" class="grey">C</td>
-                    <td onclick="calc('%')" class="grey">%</td>
-                    <td onclick="calc('/')" class="yellow">/</td>
+                    <td onclick="allClear()" class="opertaor">AC</td>
+                    <td onclick="remove()" class="opertaor">C</td>
+                    <td onclick="calc('%')" class="opertaor">%</td>
+                    <td onclick="calc('/')" class="opertaor">/</td>
                 </tr>
                 <tr>
                     <td  onclick="calc(7)" >7</td>
                     <td  onclick="calc(8)" >8</td>
                     <td  onclick="calc(9)" >9</td>
-                    <td  onclick="calc('*')"  class="yellow">*</td>
+                    <td  onclick="calc('*')"  class="opertaor">*</td>
                 </tr>
                 
                 <tr>
                     <td onclick="calc(4)" >4</td>
                     <td onclick="calc(5)" >5</td>
                     <td onclick="calc(6)" >6</td>
-                    <td onclick="calc('-')"  class="yellow">-</td>
+                    <td onclick="calc('-')"  class="opertaor">-</td>
                 </tr>
                 <tr>
                     <td onclick="calc(1)" >1</td>
                     <td onclick="calc(2)" >2</td>
                     <td onclick="calc(3)" >3</td>
-                    <td onclick="calc('+')"  class="yellow">+</td>
+                    <td onclick="calc('+')"  class="opertaor">+</td>
                 </tr>
                 
                 <tr>
-                    <td onclick="calc(0)"  colspan="2">0</td>
-                    <!-- <td>0</td> -->
-                    <td onclick="calc('.')"  >.</td>
-                    <td onclick="result()"  class="yellow">=</td>
+                    <td onclick="calc('00')">00</td>
+                    <td onclick="calc(0)" > 0 </td>
+                    <td onclick="calc('.')">.</td>
+                    <td onclick="result()"  class="opertaor">=</td>
                 </tr>
-            </table>
+             </table>
         </div>
     </div>
 </body>

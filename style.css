@@ -1,71 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-.container{
-    background-color: 1px solid red;
-    width: 60%;
-    margin: 0 auto;
-    margin-top: 100px;
-}
-@media only screen and (max-width: 600px){
-    .container{
-        width: 100%;
-        margin-top: 0;
-    }
-table td{
-    border-radius: 50%;
-}
-.container input{
-    border-radius: 100px;
-}
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
-.container input{
+body{
+    /* background: linear-gradient(45deg , #0a0a0a, #3a443a); */
+    background: linear-gradient(45deg , black, gray);
     width: 100%;
-    padding: 30px;
-    outline: none;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* color: darkslategrey; */
+}
+
+.container{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: linear-gradient(45deg , #0a0a0a, darkslategrey);
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+input{
+    width: 320px;
     border: none;
-    background-color:  #333333;
-    color: F61B35;
+    padding: 24px;
+    margin: 10px;
+    outline: none;
+    background-color:  transparent;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+    font-size: 40px;
     text-align: right;
-    border-radius: 10px;
+    cursor: pointer;
     color: white;
-    cursor: text;
+}
+input::placeholder{
+    color: #fff;
 }
 .body table{
     width: 100%;
     text-align: center;
-    background-color: black;
+    background-color: transparent;
     border-radius: 10px;
     border-spacing: 10px;
 }
 table td{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
     color: white;
-    background-color: #333333;
-    padding: 10px; 
-    border-radius: 15px;
+    border-radius: 50%;
+    /* background-color: #333333; */
+    font-size: 20px;
     cursor: pointer;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
 }
 
-table td:hover{
-    background-color: #333333c7;
-}
-table td.grey{
-    background-color: white;
-    color: black;
-}
-table td.grey:hover{
-    background-color: rgba(255, 255, 255, 0.73);
-}
-table td.yellow{
-    background-color:#F89B10;
-    color: white;
-}
-table td.yellow:hover{
-    background-color: #f89b10c5;
-}
-table td.black{
-    background-color: #333333;
+.opertaor{
+    color: orange;
 }
